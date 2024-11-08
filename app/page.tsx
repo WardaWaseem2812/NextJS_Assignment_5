@@ -9,7 +9,7 @@ const HomePage = () => {
       <div className="flex flexnpm run build-col lg:flex-row h-[80%] lg:ml-[176px]">
         
         {/* Left Side - Content */}
-        <div className="w-full lg:w-2/3 flex flex-col lg:text-left">
+        <div className="w-full lg:w-2/3 flex flex-col lg:text-left p-4">
           
           {/* Heading */}
           <h1 className="text-[#000000] font-bold text-[28px] md:text-[32px] lg:text-[40px] lg:w-[496px] pt-[40px] lg:pt-[182px]">
@@ -17,7 +17,7 @@ const HomePage = () => {
           </h1>
           
           {/* Paragraph */}
-          <p className="text-[#787054] font-medium text-[18px] md:text-[24px] lg:text-[30px] max-w-full lg:max-w-[902px] h-auto lg:h-[147px] flex pt-[8px] pb-10 lg:pb-14 mb-8">
+          <p className="text-[#787054] font-medium text-[18px] lg:text-[30px] max-w-full lg:max-w-[902px] h-auto lg:h-[147px] flex pt-[8px] pb-10 lg:pb-14 mb-8">
             An example of intricate workmanship and detail, elegant necklaces and long and short chains form a part of our desirable collection.
           </p>
           
@@ -28,18 +28,18 @@ const HomePage = () => {
         </div>
 
         {/* Right Side - Image */}
-        <div className="relative w-full lg:w-1/3 flex justify-center items-center mt-6 lg:mt-[64px] lg:ml-[24px] overflow-hidden">
+        <div className="relative lg:w-1/3 flex justify-center items-center mt-20">
           
           {/* Border inside the image */}
-          <div className="relative w-[490px] h-auto">
-           <div className="m-[5%] absolute inset-0 border-[1px] border-[#FFFFFF] rounded-[150px_0px_150px_0px] "></div>
-            
+          <div className="relative h-auto">
+            <div className="m-[5%] absolute inset-0 border-[1px] border-[#FFFFFF] rounded-[50px_0px_50px_0px] lg:rounded-[150px_0px_150px_0px]"></div>
+  
             {/* Image */}
             <img 
               src="/images/slider-1.jpg.svg" 
               alt="Jewelry Display" 
-              className="w-[490px] h-auto object-contain rounded-[150px_0px_150px_0px]"
-            />
+              className="object-contain rounded-[50px_0px_50px_0px] lg:rounded-[150px_0px_150px_0px]"
+              />
           </div>
         </div>
       </div>
