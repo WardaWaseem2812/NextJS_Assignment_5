@@ -6,10 +6,10 @@ const HomePage = () => {
     <div className="min-h-screen w-full flex flex-col justify-center">
       <Header />
         
-      <div className="flex flex-col lg:flex-row h-[80%] lg:ml-[176px] p-12">
+      <div className="flex flex-row h-[80%] lg:ml-[176px]">
         
         {/* Left Side - Content */}
-        <div className="w-full lg:w-2/3 flex flex-col lg:text-left p-4">
+        <div className="w-full lg:w-2/3 flex flex-col lg:text-left ml-3">
           
           {/* Heading */}
           <h1 className="text-[#000000] font-bold text-[28px] md:text-[32px] lg:text-[40px] lg:w-[496px] pt-[40px] lg:pt-[182px]">
@@ -28,7 +28,7 @@ const HomePage = () => {
         </div>
 
         {/* Right Side - Image */}
-        <div className="relative lg:w-1/3 flex justify-center items-center mt-20">
+        <div className="relative lg:w-1/3 flex justify-center items-center mt-20 pr-12">
           
           {/* Border inside the image */}
           <div className="relative h-auto">
