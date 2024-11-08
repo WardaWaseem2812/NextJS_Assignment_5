@@ -6,7 +6,7 @@ const HomePage = () => {
     <div className="min-h-screen w-full flex flex-col justify-center">
       <Header />
         
-      <div className="flex flexnpm run build-col lg:flex-row h-[80%] lg:ml-[176px]">
+      <div className="flex flex-col lg:flex-row h-[80%] lg:ml-[176px] p-12">
         
         {/* Left Side - Content */}
         <div className="w-full lg:w-2/3 flex flex-col lg:text-left p-4">
