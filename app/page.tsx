@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './components/Header';
+import Image from 'next/image'
 
 const HomePage = () => {
   return (
@@ -35,7 +36,7 @@ const HomePage = () => {
            <div className="m-[5%] absolute inset-0 border-[1px] border-[#FFFFFF] rounded-[150px_0px_150px_0px] "></div>
             
             {/* Image */}
-            <img 
+            <Image 
               src="/images/slider-1.jpg.svg" 
               alt="Jewelry Display" 
               className="w-[490px] h-auto object-contain rounded-[150px_0px_150px_0px]"
