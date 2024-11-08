@@ -1,14 +1,14 @@
 import React from 'react';
 import Header from './components/Header';
 
-const HomePage: React.FC = () => {
+const HomePage = () => {
   return (
     <div className="min-h-screen w-full flex flex-col justify-center">
       <Header />
         
       <div className="flex flex-col lg:flex-row h-[80%] lg:ml-[176px]">
         
-        {/* Left Side Content */}
+        {/* Left Side - Content */}
         <div className="w-full lg:w-2/3 flex flex-col lg:text-left">
           
           {/* Heading */}
@@ -27,23 +27,21 @@ const HomePage: React.FC = () => {
           </button>
         </div>
 
-        {/* Right Side Image */}
+        {/* Right Side - Image */}
         <div className="relative w-full lg:w-1/3 flex justify-center items-center mt-6 lg:mt-[64px] lg:ml-[24px] overflow-hidden">
           
-          {/* Image Wrapper */}
+          {/* Border inside the image */}
           <div className="relative w-[490px] h-auto">
+           <div className="m-[5%] absolute inset-0 border-[1px] border-[#FFFFFF] rounded-[150px_0px_150px_0px] "></div>
             
-            {/* Border inside the image container */}
-            <div className="m-[5%] absolute inset-0 border-[1px] border-[#FFFFFF] rounded-[150px_0px_150px_0px] "></div>
-            
-            {/* Full-Size Image */}
+            {/* Image */}
             <img 
-      src="/images/slider-1.jpg.svg" 
-      alt="Jewelry Display" 
-      className="w-[490px] h-auto object-contain rounded-[150px_0px_150px_0px]"
-    />
-  </div>
-</div>
+              src="/images/slider-1.jpg.svg" 
+              alt="Jewelry Display" 
+              className="w-[490px] h-auto object-contain rounded-[150px_0px_150px_0px]"
+            />
+          </div>
+        </div>
       </div>
     </div>
   );
