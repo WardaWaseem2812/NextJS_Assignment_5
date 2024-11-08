@@ -17,12 +17,12 @@ const HomePage = () => {
           </h1>
           
           {/* Paragraph */}
-          <p className="text-[#787054] font-medium text-[18px] lg:text-[30px] max-w-full lg:max-w-[902px] h-auto lg:h-[147px] flex pt-[8px] pb-10 lg:pb-14 mb-8">
+          <p className="text-[#787054] font-medium text-[18px] lg:text-[30px] max-w-[902px] h-auto lg:h-[147px] flex pt-[8px] pb-6 lg:mb-14">
             An example of intricate workmanship and detail, elegant necklaces and long and short chains form a part of our desirable collection.
           </p>
           
           {/* Button */}
-          <button className="bg-[#A29875] text-[#FFFFFF] font-medium text-[18px] md:text-[20px] lg:text-[24px] p-[10px] gap-2.5 rounded-[10px] mt-[20px] w-[200px] md:w-[250px] lg:w-[288px] mx-auto lg:mx-0">
+          <button className="bg-[#A29875] text-[#FFFFFF] font-medium text-[18px] lg:text-[24px] p-[10px]  rounded-[10px] w-[200px] md:w-[250px] lg:w-[288px] lg:mx-0">
             Explore Now
           </button>
         </div>
